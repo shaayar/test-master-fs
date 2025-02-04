@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation'; // For client-side navigation
 import { signInWithEmailAndPassword, getAuth } from "firebase/auth";
-import { app } from './firebaseConfig'; // Your Firebase config
+import { app } from '../../utils/firebase'; // Your Firebase config
 
 const Home = () => {
     const router = useRouter();
