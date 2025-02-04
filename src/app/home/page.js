@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { ClipLoader } from 'react-spinners';
 
-import { useAuth } from './AuthContext'; 
+import { useAuth } from './AuthContext.js'; 
 
 export default function Home() {
     const { isAuthenticated } = useAuth();
